@@ -1,0 +1,12 @@
+Utils, keywords and often used builtins and attributes for optimization included in a
+only header. Made in a portable way that define a single macro to features that can be
+in a differently name in others compilers, and check if the currently compiler or C++
+version supports.
+
+I used Hedley and others projects to get the versions of compilers for checking if the
+feature is avaible in the currently used compiler. Btw check out Hedley, a cool project
+that add macros like this, but with a huge implementation and portability.
+https://nemequ.github.io/hedley/
+
+Note: A feature can not be in ALL compilers, like MSVC from Microsoft, that doens't add
+a huge library of features like GCC.
