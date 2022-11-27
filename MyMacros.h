@@ -4,7 +4,7 @@
 #ifndef __MY__MACROS__
 #define __MY__MACROS__
 
-/* Retired from Hedley (https://t.ly/DpCm) and edited */
+/* Retired from Hedley (https://nemequ.github.io/hedley) and edited */
 
 #define __VERSION_ENCODE__(MAJOR, MINOR, PATCH) (MAJOR * 1000000) + (MINOR * 1000) + PATCH
 
